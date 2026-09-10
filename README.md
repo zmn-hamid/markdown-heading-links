@@ -1,7 +1,5 @@
 # Markdown Heading Links
 
-> **Disclaimer:** This plugin is AI-generated.
-
 Make standard Markdown heading links work properly in Obsidian.
 
 Obsidian supports heading links in wikilink syntax, but links such as `[Read more](#getting-started)` do not receive native hover previews. This plugin bridges that gap and makes Markdown heading links easier to create.
@@ -49,7 +47,9 @@ You can also place the cursor on the heading in the writing mode and right click
 
 ### Community plugin
 
-Not available yet.
+After the plugin is accepted into the Obsidian Community directory, search for
+**Markdown Heading Links** in **Settings > Community plugins** and install it
+from there. Until then, use the manual installation instructions below.
 
 ### Manual installation
 
@@ -72,6 +72,11 @@ Not available yet.
 
 Requires Obsidian 1.5.0 or later.
 
+## Privacy
+
+Markdown Heading Links works entirely inside your vault. It does not collect
+telemetry, make network requests, or send your note contents anywhere.
+
 ## Development
 
 ```bash
@@ -79,3 +84,8 @@ npm install
 npm test
 npm run build
 ```
+
+The production build creates `main.js`, which is intentionally ignored by Git.
+For a release, publish `main.js`, `manifest.json`, and `styles.css` as separate
+assets on a GitHub release whose tag exactly matches the version in
+`manifest.json`.
