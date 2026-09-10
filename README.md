@@ -47,10 +47,7 @@ You can also place the cursor on the heading in the writing mode and right click
 
 ### Community plugin
 
-The plugin is listed in the [Obsidian Community directory](https://community.obsidian.md/plugins/markdown-heading-links)
-and is currently pending review. After approval, search for **Markdown Heading
-Links** in **Settings > Community plugins** and install it from there. Until
-then, use the manual installation instructions below.
+Install the plugin from the [Obsidian Community directory](https://community.obsidian.md/plugins/markdown-heading-links): open **Settings > Community plugins**, search for **Markdown Heading Links**, and select **Install**. For manual installation, use the instructions below.
 
 ### Manual installation
 
