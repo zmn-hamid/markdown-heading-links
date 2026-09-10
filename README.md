@@ -1,5 +1,7 @@
 # Markdown Heading Links
 
+> **Disclaimer:** This plugin is AI-generated.
+
 Add Ctrl/Cmd-hover previews and click navigation for standard Markdown links to headings, including links to other notes. Type `#` in a link destination to autocomplete headings, copy heading slugs from Reading view, and use commands to copy complete Markdown links.
 
 Markdown heading links such as `[Read more](#getting-started)` are standard Markdown, but Obsidian does not provide native hover previews for them. This plugin bridges that gap and makes Markdown heading links easier to create.
