@@ -1,7 +1,7 @@
 {
   "name": "markdown-heading-links",
-  "version": "1.0.1",
-  "description": "Obsidian plugin for standard Markdown links to headings.",
+  "version": "1.0.2",
+  "description": "Plugin for standard Markdown links to headings.",
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",

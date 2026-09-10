@@ -57,7 +57,7 @@ export function buildHeadingIndex(cache: CachedMetadata | null): Map<string, Hea
   }
 
   const eofPosition = getEndOfFilePosition(cache, headings[headings.length - 1]);
-  const endPositions: Loc[] = new Array(headings.length);
+  const endPositions = new Array<Loc>(headings.length);
 
   for (let i = 0; i < headings.length; i += 1) {
     const heading = headings[i];

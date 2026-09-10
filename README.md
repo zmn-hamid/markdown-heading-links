@@ -71,8 +71,10 @@ Requires Obsidian 1.5.0 or later.
 
 ## Privacy
 
-Markdown Heading Links works entirely inside your vault. It does not collect
-telemetry, make network requests, or send your note contents anywhere.
+Markdown Heading Links works locally in your vault. It does not collect
+telemetry, make network requests, or send your note contents anywhere. When
+you use a copy feature, it writes the generated slug or Markdown link to the
+system clipboard; it does not read existing clipboard contents.
 
 ## Development
 

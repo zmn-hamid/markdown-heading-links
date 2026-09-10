@@ -1,9 +1,9 @@
 {
   "id": "markdown-heading-links",
   "name": "Markdown Heading Links",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minAppVersion": "1.5.0",
-  "description": "Preview and create standard Markdown links to headings in Obsidian.",
+  "description": "Preview and create standard Markdown links to headings.",
   "author": "zmn-hamid",
   "authorUrl": "https://github.com/zmn-hamid",
   "isDesktopOnly": false
