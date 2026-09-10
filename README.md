@@ -47,20 +47,20 @@ You can also place the cursor on the heading in the writing mode and right click
 
 ### Community plugin
 
-After the plugin is accepted into the Obsidian Community directory, search for
-**Markdown Heading Links** in **Settings > Community plugins** and install it
-from there. Until then, use the manual installation instructions below.
+The plugin is listed in the [Obsidian Community directory](https://community.obsidian.md/plugins/markdown-heading-links)
+and is currently pending review. After approval, search for **Markdown Heading
+Links** in **Settings > Community plugins** and install it from there. Until
+then, use the manual installation instructions below.
 
 ### Manual installation
 
-1. **Download the plugin:**
-   https://github.com/zmn-hamid/markdown-heading-links/releases/latest/download/markdown-heading-links.zip
-2. **Unzip** the downloaded file. You should get a folder named `markdown-heading-links` containing files like `main.js`, `manifest.json`, and `styles.css`.
+1. **Download the plugin files** from the [latest GitHub release](https://github.com/zmn-hamid/markdown-heading-links/releases/latest): [`main.js`](https://github.com/zmn-hamid/markdown-heading-links/releases/latest/download/main.js), [`manifest.json`](https://github.com/zmn-hamid/markdown-heading-links/releases/latest/download/manifest.json), and [`styles.css`](https://github.com/zmn-hamid/markdown-heading-links/releases/latest/download/styles.css).
+2. **Create a folder** named `markdown-heading-links` and place all three files directly inside it.
 3. **Enable community plugins in Obsidian:**
    Go to **Settings > Community Plugins** and turn off **Restricted Mode** if it's on.
 4. **Open the plugins folder:**
    Still in **Settings > Community Plugins**, click the **folder icon** (hover text: "Open plugins folder").
-5. **Copy the extracted folder** (`markdown-heading-links`) into the plugins folder that just opened.
+5. **Copy the `markdown-heading-links` folder** into the plugins folder that just opened.
 6. **Reload Obsidian:**
    Either restart Obsidian completely, or click the **refresh icon** in **Settings > Community Plugins** to rescan the folder.
 7. **Enable the plugin:**
@@ -68,7 +68,7 @@ from there. Until then, use the manual installation instructions below.
 8. **Verify it loaded:**
    The toggle should stay on and no error message should appear. If it does, double-check that the folder structure is `plugins/markdown-heading-links/main.js` (not `plugins/markdown-heading-links/markdown-heading-links/main.js`).
 
-**Tip:** The most common mistake is unzipping into a nested folder. Make sure `main.js` and `manifest.json` sit directly inside `markdown-heading-links/`, not inside another subfolder.
+**Tip:** Make sure `main.js` and `manifest.json` sit directly inside `markdown-heading-links/`, not inside another subfolder.
 
 Requires Obsidian 1.5.0 or later.
 
