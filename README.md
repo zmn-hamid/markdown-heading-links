@@ -74,7 +74,8 @@ Requires Obsidian 1.5.0 or later.
 Markdown Heading Links works locally in your vault. It does not collect
 telemetry, make network requests, or send your note contents anywhere. When
 you use a copy feature, it writes the generated slug or Markdown link to the
-system clipboard; it does not read existing clipboard contents.
+system clipboard. The plugin never reads the clipboard, so existing clipboard
+content—including content copied from outside Obsidian—is not accessed.
 
 ## Development
 

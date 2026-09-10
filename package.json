@@ -1,6 +1,6 @@
 {
   "name": "markdown-heading-links",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plugin for standard Markdown links to headings.",
   "main": "main.js",
   "scripts": {
