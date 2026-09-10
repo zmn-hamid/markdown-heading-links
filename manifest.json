@@ -1,0 +1,9 @@
+{
+  "id": "markdown-heading-links",
+  "name": "Markdown Heading Links",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Make GFM-style Markdown heading links previewable and easy to create.",
+  "author": "zmn-hamid",
+  "isDesktopOnly": false
+}

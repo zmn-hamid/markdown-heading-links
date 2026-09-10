@@ -1,0 +1,81 @@
+# Markdown Heading Links
+
+> **Disclaimer:** This plugin is AI-generated.
+
+Make standard Markdown heading links work properly in Obsidian.
+
+Obsidian supports heading links in wikilink syntax, but links such as `[Read more](#getting-started)` do not receive native hover previews. This plugin bridges that gap and makes Markdown heading links easier to create.
+
+## Features
+
+- Native Ctrl/Cmd-hover previews for Markdown heading links.
+- Click navigation for GitHub-style heading slugs, including links to other notes.
+- Heading autocomplete: type `#` after `[link text](` and choose a heading.
+- Copy-slug buttons beside headings in Reading view.
+- Commands for copying a heading slug or a complete Markdown link.
+- Duplicate headings use `-1`, `-2`, and later suffixes.
+
+## Usage
+
+Given this heading:
+
+```markdown
+## Getting Started
+```
+
+Type the following in Edit mode:
+
+```markdown
+[Read more](# 
+```
+
+**Important**: add a space in the end to activate the suggestions.
+
+Choose a heading such as **Getting Started** from the suggestions. The plugin inserts:
+
+```markdown
+[Read more](#getting-started)
+```
+
+In Reading view, hover over a heading to reveal its link button and copy the slug. You can also open the Command palette with `Ctrl/Cmd+P` and search for:
+
+- **Suggest heading slug**
+- **Copy heading slug**
+- **Copy Markdown link to heading**
+
+You can also place the cursor on the heading in the writing mode and right click on it and choose one of the copy options that you can find in the command palette as well.
+
+## Installation
+
+### Community plugin
+
+Not available yet.
+
+### Manual installation
+
+1. **Download the plugin:**
+   https://github.com/zmn-hamid/markdown-heading-links/releases/latest/download/markdown-heading-links.zip
+2. **Unzip** the downloaded file. You should get a folder named `markdown-heading-links` containing files like `main.js`, `manifest.json`, and `styles.css`.
+3. **Enable community plugins in Obsidian:**
+   Go to **Settings > Community Plugins** and turn off **Restricted Mode** if it's on.
+4. **Open the plugins folder:**
+   Still in **Settings > Community Plugins**, click the **folder icon** (hover text: "Open plugins folder").
+5. **Copy the extracted folder** (`markdown-heading-links`) into the plugins folder that just opened.
+6. **Reload Obsidian:**
+   Either restart Obsidian completely, or click the **refresh icon** in **Settings > Community Plugins** to rescan the folder.
+7. **Enable the plugin:**
+   In **Settings > Community Plugins**, find **Markdown Heading Links** in the list and toggle it **ON**.
+8. **Verify it loaded:**
+   The toggle should stay on and no error message should appear. If it does, double-check that the folder structure is `plugins/markdown-heading-links/main.js` (not `plugins/markdown-heading-links/markdown-heading-links/main.js`).
+
+**Tip:** The most common mistake is unzipping into a nested folder. Make sure `main.js` and `manifest.json` sit directly inside `markdown-heading-links/`, not inside another subfolder.
+
+Requires Obsidian 1.5.0 or later.
+
+## Development
+
+```bash
+npm install
+npm test
+npm run build
+```
